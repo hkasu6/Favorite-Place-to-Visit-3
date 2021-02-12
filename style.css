@@ -52,3 +52,12 @@ li a:hover {
 html {
     scroll-behavior: smooth;
 }
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA
+}
+
+img:hover {
+    transform: scale(0.9)
+}
