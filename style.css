@@ -27,15 +27,25 @@ img {
     font-family: 'Indie Flower', cursive;
 }
 
+
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: none;
+}      
+
+li {
+    float: left;
 }
-
-
 
 li a {
     display: block;
@@ -47,6 +57,18 @@ li a {
 
 li a:hover {
     background-color: #03bafc;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+    text-shadow: 2px 2px gainsboro;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
 }
 
 html {
